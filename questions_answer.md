@@ -21,3 +21,6 @@ banana
 NTP (Network Time Protocol) Port number 123
 NFS (Network File System) Port number 111 or 2049
 These port numbers are assigned by the Internet Assigned Numbers Authority (IANA) and are used as default communication ports for the respective services. 
+
+##### What is the configuration file name of DNS and where is it located?
+> `/etc/named.conf`
