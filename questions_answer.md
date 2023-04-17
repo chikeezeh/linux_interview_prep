@@ -53,3 +53,30 @@ drwxr-xr-x. 2 root root 6 Apr 17 15:21 c4
 >The DNS server is responsible for resolving domain names into IP addresses. While having a configured DNS server allows your PC to resolve domain names, it still needs the default gateway to send and receive data packets to and from external networks.
 >
 >In summary, a configured DNS server alone is not sufficient for accessing the internet. You also need a properly configured default gateway to route traffic between your local network and the internet.
+
+##### What is the difference between IP and Gateway
+>IP (Internet Protocol) address and gateway are related concepts in computer networking, but they serve different purposes.
+>
+>IP Address:
+An IP address is a unique numerical identifier assigned to each device on a network. It enables devices to communicate with each other within a local network or across the internet. IP addresses can be IPv4 (32-bit) or IPv6 (128-bit) and are typically assigned by a DHCP (Dynamic Host Configuration Protocol) server in most networks.
+There are two types of IP addresses:
+>
+>Private IP addresses: These are reserved for use within local networks and are not routable on the internet. Private IP ranges for IPv4 are 10.0.0.0 - 10.255.255.255, 172.16.0.0 - 172.31.255.255, and 192.168.0.0 - 192.168.255.255.
+Public IP addresses: These are globally unique and routable on the internet. Public IP addresses are assigned by an Internet Service Provider (ISP) and enable devices to access the internet.
+Gateway:
+A gateway is a networking device that connects different networks and allows them to communicate with each other. In the context of home or office networks, the term "default gateway" usually refers to the router that connects your local network to the internet.
+The default gateway has its IP address, which is typically a private IP address within the local network's IP range. Devices on the local network use the default gateway to send and receive data packets to and from external networks, such as the internet.
+>
+>In summary, an IP address is a unique identifier for devices on a network, while a gateway (or default gateway) is a networking device that connects and routes traffic between different networks. Devices use their IP addresses to communicate with each other and the gateway to communicate with external networks.
+
+##### Can you assign one static IP to 2 computers, if not then why?
+> No, this will cause an IP conflict.
+
+##### How to change IPs address to static?
+>To set a static IP and netmask:
+```ifconfig eth0 192.168.1.100 netmask 255.255.255.0```
+
+##### You are trying to ping a server by hostname and you get an error message, “ping: unknown host …”. What could be the reason and how to solve the problem so you can ping it by hostname?
+
+>This could be because the hostname doesn't have a hostname to ip entry on the 
+>``` /etc/hosts``` or DNS.
