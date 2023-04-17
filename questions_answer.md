@@ -16,3 +16,8 @@ banana
 apple
 banana
 ```
+##### What is the port # for DNS, NTP and NFS?
+DNS (Domain Named System) Port number 53
+NTP (Network Time Protocol) Port number 123
+NFS (Network File System) Port number 111 or 2049
+These port numbers are assigned by the Internet Assigned Numbers Authority (IANA) and are used as default communication ports for the respective services. 
