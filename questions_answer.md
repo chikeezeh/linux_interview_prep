@@ -28,6 +28,7 @@ These port numbers are assigned by the Internet Assigned Numbers Authority (IANA
 ##### How many new directories will be created after running the following command
 ```mkdir {a..c}{1..4}```
 >12
+
 ```console
 ┌──[15:20:26]─[0]─[root@almanode1:~]
 └──| mkdir {a..c}{1..4}
@@ -46,3 +47,9 @@ drwxr-xr-x. 2 root root 6 Apr 17 15:21 c2
 drwxr-xr-x. 2 root root 6 Apr 17 15:21 c3
 drwxr-xr-x. 2 root root 6 Apr 17 15:21 c4
 ```
+##### Your PC is configured with a DNS server address but not the default gateway. Can the PC access internet?
+>If your PC is configured with a DNS server address but lacks a default gateway, it will not be able to access the internet. The default gateway is essential for routing traffic from your local network to the broader internet.
+>
+>The DNS server is responsible for resolving domain names into IP addresses. While having a configured DNS server allows your PC to resolve domain names, it still needs the default gateway to send and receive data packets to and from external networks.
+>
+>In summary, a configured DNS server alone is not sufficient for accessing the internet. You also need a properly configured default gateway to route traffic between your local network and the internet.
