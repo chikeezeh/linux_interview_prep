@@ -24,3 +24,25 @@ These port numbers are assigned by the Internet Assigned Numbers Authority (IANA
 
 ##### What is the configuration file name of DNS and where is it located?
 > `/etc/named.conf`
+
+##### How many new directories will be created after running the following command
+```mkdir {a..c}{1..4}```
+>12
+```console
+┌──[15:20:26]─[0]─[root@almanode1:~]
+└──| mkdir {a..c}{1..4}
+┌──[15:21:20]─[0]─[root@almanode1:~]
+└──| ll -d {a..c}{1..4}
+drwxr-xr-x. 2 root root 6 Apr 17 15:21 a1
+drwxr-xr-x. 2 root root 6 Apr 17 15:21 a2
+drwxr-xr-x. 2 root root 6 Apr 17 15:21 a3
+drwxr-xr-x. 2 root root 6 Apr 17 15:21 a4
+drwxr-xr-x. 2 root root 6 Apr 17 15:21 b1
+drwxr-xr-x. 2 root root 6 Apr 17 15:21 b2
+drwxr-xr-x. 2 root root 6 Apr 17 15:21 b3
+drwxr-xr-x. 2 root root 6 Apr 17 15:21 b4
+drwxr-xr-x. 2 root root 6 Apr 17 15:21 c1
+drwxr-xr-x. 2 root root 6 Apr 17 15:21 c2
+drwxr-xr-x. 2 root root 6 Apr 17 15:21 c3
+drwxr-xr-x. 2 root root 6 Apr 17 15:21 c4
+```

@@ -1,1 +1,1 @@
-# Linux System Administrator Technical Interview and Answers.
+# Linux System Administrator Technical Interview Questions and Answers.
