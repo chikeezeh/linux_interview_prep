@@ -200,3 +200,54 @@ So the communication of each application goes through a dedicated port.
 
 ##### How to change a hostname in Linux?
 >`hostnamectl set-hostname newhostname`
+
+##### How to check network interfaces in Linux?
+>`ip address or ip a`
+
+##### Why is “tail –f logfilename” command used most often and what does it do?
+>It will output all incoming logs in real time.
+
+##### How to sort a file in reverse order?
+> `cat filename | sort -r`
+
+##### List all byte sizes from smalles to largest?
+>* Bit (smallest unit of data)
+>* Nibble (4 bits)
+>* Byte (8 bits)
+>* Kilobyte (KB) (1024 bytes)
+>* Megabyte (MB) (1024 KB or 1,048,576 bytes)
+>* Gigabyte (GB) (1024 MB or 1,073,741,824 bytes)
+>* Terabyte (TB) (1024 GB or 1,099,511,627,776 bytes)
+>* Petabyte (PB) (1024 TB or 1,125,899,906,842,624 bytes)
+>* Exabyte (EB) (1024 PB or 1,152,921,504,606,846,976 bytes)
+>* Zettabyte (ZB) (1024 EB or 1,180,591,620,717,411,303,424 bytes)
+>* Yottabyte (YB) (1024 ZB or 1,208,925,819,614,629,174,706,176 bytes)
+
+##### How to check the total number of partition in Linux?
+> `fdisk -l or lsblk`
+
+##### What is the exact command syntax to list the 5th column of a file and cut the first 3 letters?
+```console
+┌──[05:45:59]─[0]─[root@almanode1:~]
+└──| cat filename | awk '{print $5}'| cut -c1-3
+ber
+str
+```
+##### List any 3 options of ‘df’ command and what they are used for?
+>`df -i #shows inode usage`
+>`df -h #shows filesytem and disk usage in human readable form`
+>`df -a # List [a]ll filesystems, + unreadable, duplicates, pseudo, and inaccessible.`
+
+##### What is the command to change file/directory permissions?
+> `chmod`
+
+##### What is the purpose of pipe (|)?
+>To redirect the output of one command as the input to another command.
+
+##### Which command is used to list files in a directory?
+> `ls` command is used.
+
+##### There is a command which gives you information about other commands, please explain that command and what is it used for?
+> `man` command is an inbuilt manual for commands on the Linux system, it tells you how to use a command.
+
+
