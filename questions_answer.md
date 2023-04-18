@@ -197,3 +197,6 @@ So the communication of each application goes through a dedicated port.
 >Virtual memory is a technique used by operating systems to expand the amount of available memory beyond the physical limits of the computer's RAM. It allows the system to use hard disk space as an extension of physical memory, by swapping data between the RAM and disk as needed. This allows programs to run even if they require more memory than the system has available. However, virtual memory is slower than physical memory since accessing data on a hard disk is slower than accessing data in RAM.
 >
 >Cache is a type of memory used by a computer to speed up data access by storing frequently used data or instructions in a location that is faster to access than main memory. It is a smaller, faster memory that is closer to the processor than main memory. Cache is used to reduce the number of times the processor needs to access main memory, which can improve performance. There are different types of cache, including CPU cache, disk cache, and browser cache.
+
+##### How to change a hostname in Linux?
+>`hostnamectl set-hostname newhostname`
