@@ -241,7 +241,7 @@ str
 ##### What is the command to change file/directory permissions?
 > `chmod`
 
-##### What is the purpose of pipe (|)?
+##### What is the purpose of pipe |?
 >To redirect the output of one command as the input to another command.
 
 ##### Which command is used to list files in a directory?
@@ -250,4 +250,7 @@ str
 ##### There is a command which gives you information about other commands, please explain that command and what is it used for?
 > `man` command is an inbuilt manual for commands on the Linux system, it tells you how to use a command.
 
+
+##### How to delete a file and a directory?
+> `rm` command can be used to delete a file, using the `-r` flag, you can delete a folder also. `rmdir` can be used to delete an empty folder.
 
