@@ -84,3 +84,8 @@ The default gateway has its IP address, which is typically a private IP address 
 ##### Explain the difference between relative and absolute path?
 >Absolute path starts from the apex directory which is the ```/``` while a relative path is relative to the current directory.
 
+##### List 3 different methods of adding user?
+>```useradd``` command
+>```adduser``` command
+>Using the GNOME GUI.
+
