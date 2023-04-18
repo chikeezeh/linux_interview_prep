@@ -262,3 +262,7 @@ str
 > * more
 > * less
 > * vi
+##### What are the different commands or methods to write to a file?
+> `echo 'content' > file`
+> `vi file`
+> `cat file1 > file2`
