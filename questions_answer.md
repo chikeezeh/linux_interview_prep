@@ -284,4 +284,22 @@ str
 check the crontab entry using `crontab -l` to see if the entry is specified correctly.
 check `/var/log/messages` to see if there is an entry for the cron job execution.
 
+##### How to check system hardware information?
+>`dmidecode`
+##### What is the uniq command used for?
+> Output the unique lines from the given input or file.
+
+##### What is the sed command used for?
+> A stream editor. Used to perform basic text transformations.
+> `command | sed 's/apple/mango/g'` # this replaces apple with mango
+>```console
+>┌──[14:27:07]─[0]─[root@almanode1:~]
+>└──| cat fruits
+>apple orange kiwi grape berry
+>banana mango carrot spinach strawberry
+>┌──[14:27:10]─[0]─[root@almanode1:~]
+>└──| cat fruits | sed 's/apple/mango/g'
+>mango orange kiwi grape berry
+>banana mango carrot spinach strawberry
+>```
 
