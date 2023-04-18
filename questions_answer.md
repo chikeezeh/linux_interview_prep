@@ -279,3 +279,9 @@ str
 ##### Which file to edit for kernel tuning?
 >The file to edit for kernel tuning can vary depending on the specific operating system and version you are using. In general, most Linux distributions use the `/etc/sysctl.conf` file to configure kernel parameters at boot time.
 
+##### You have scheduled a job using crontab but it does not run at the time you specified, what could be the reason and how would you troubleshoot?
+>Check if the system time is set correctly.
+check the crontab entry using `crontab -l` to see if the entry is specified correctly.
+check `/var/log/messages` to see if there is an entry for the cron job execution.
+
+
