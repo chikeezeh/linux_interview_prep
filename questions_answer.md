@@ -266,3 +266,16 @@ str
 > `echo 'content' > file`
 > `vi file`
 > `cat file1 > file2`
+
+##### What is swap space and how to check swap space?
+>Swap space is a reserved storage space that can be used as memory when the machine is out of memory space. You can view the swap space by using the `free -h` command.
+
+##### What is inode and how to find an inode of a file?
+> An inode, short for index node, is a data structure used in Unix-based file systems to store information about a file or directory. Each file and directory on a Unix-based file system is associated with an inode, which contains metadata such as the file's owner and permissions, creation and modification times, and the file's location on the disk.
+>
+>Inodes are used by the file system to track files and directories, and they play a critical role in the file system's ability to efficiently locate and retrieve data. Inodes are allocated when a file or directory is created, and they are typically stored in a fixed area of the file system known as the inode table.
+> `ls -i` command can be used to check the inode of a file.
+
+##### Which file to edit for kernel tuning?
+>The file to edit for kernel tuning can vary depending on the specific operating system and version you are using. In general, most Linux distributions use the `/etc/sysctl.conf` file to configure kernel parameters at boot time.
+
