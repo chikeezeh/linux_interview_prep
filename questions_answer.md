@@ -89,3 +89,20 @@ The default gateway has its IP address, which is typically a private IP address 
 >```adduser``` command
 >Using the GNOME GUI.
 
+##### What is the command to change file/directory ownership and group?
+``` chown and chgrp``` commands.
+
+##### List any 3 Type of Linux file systems?
+* xfs
+* ext4, ext3
+* NTFS
+* FAT
+
+##### What is /bin directory used for?
+> The ```/bin``` directory contains the essential user binaries (programs) that must be present when the
+system is mounted in single-user mode. Applications such as Firefox are stored in ```/usr/bin```, while
+important system programs and utilities such as the bash shell are located in ```/bin```. The ```/usr```
+directory may be stored on another partition – placing these files in the ```/bin``` directory ensures
+the system will have these important utilities even if no other file systems are mounted. The
+```/sbin``` directory is similar – it contains essential system administration binaries.
+
