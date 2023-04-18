@@ -149,3 +149,51 @@ So the communication of each application goes through a dedicated port.
 >┌──[19:57:45]─[0]─[root@almanode1:~]
 >└──| tar cf folders.tar a1 a2 a3 a4 b1 b2 b3 b4 c1 c2 c3 c4
 >```
+##### What is root home directory?
+>`/root`
+##### What is rsyslogd deamon and its purpose?
+>rsyslogd is a system daemon that is responsible for receiving and processing system logs on Unix-like operating systems. It is a powerful and flexible syslog implementation that provides several advanced features over the traditional syslog daemon.
+>
+>The primary purpose of rsyslogd is to collect log messages from various sources such as system services, applications, and hardware devices and route them to the appropriate destination. It allows you to store logs in a variety of formats and can also forward logs to other systems or remote destinations.
+>
+>Some of the key features of rsyslogd include support for both UDP and TCP protocols, message filtering based on different criteria, log rotation, and the ability to perform real-time message analysis and processing. It also supports various output formats such as plain text, JSON, and CSV, making it easier to analyze logs using different tools and platforms.
+>
+>Overall, rsyslogd is an essential component of the logging infrastructure on Unix-like systems, and it plays a critical role in ensuring system security, troubleshooting, and performance monitoring.
+
+##### How to check the computer name or host name in Linux?
+>`hostname`
+
+##### Which permission allows a user to run an executable with the permissions of the owner of that file?
+> The first permission bit must have `x`.
+
+##### What is the command to extract a tarred file?
+> `tax xvf /pathtotarfile.tar.gz`
+
+##### What is /proc directory used for?
+>The /proc directory is a virtual filesystem in Unix-like operating systems that provides a mechanism for accessing information about running processes and system configuration in real-time. The files and directories in the /proc directory are not actual files on the disk, but rather a view into the system's kernel data structures.
+>
+>The /proc directory contains a hierarchical structure of numbered directories, each corresponding to a running process on the system. Each of these directories contains a set of files and subdirectories that provide information about the process, such as its status, memory usage, file descriptors, and more.
+>
+>Apart from process information, the /proc directory also contains files and directories that provide information about system configuration and hardware, including information about CPUs, memory, devices, and more.
+>
+>Some common use cases of the /proc directory include monitoring system performance, diagnosing issues with processes and system components, and developing system-level tools and utilities.
+>
+>Overall, the /proc directory is a powerful and essential resource for system administrators and developers on Unix-like systems, providing real-time insights into the inner workings of the system.
+
+##### List 3 basic commands to navigate the filesystem?
+> `cd pwd ls`
+
+##### Which service/daemon should be running on the server that allows you to connect remotely?
+> `sshd`
+
+##### What is the purpose of firewall?
+>A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on a set of predefined security rules. The primary purpose of a firewall is to act as a barrier between a private network (such as a corporate network or home network) and the public Internet or other untrusted networks.
+
+##### What is the difference between memory, virtual memory and cache?
+>Memory, virtual memory, and cache are all types of computer memory, but they differ in their purpose, behavior, and characteristics.
+>
+>Memory, also known as RAM (Random Access Memory), is the physical hardware component of a computer where data and instructions are stored temporarily when a program is running. It is a fast, volatile memory that can be accessed quickly by the processor. Memory is typically measured in gigabytes (GB) or megabytes (MB).
+>
+>Virtual memory is a technique used by operating systems to expand the amount of available memory beyond the physical limits of the computer's RAM. It allows the system to use hard disk space as an extension of physical memory, by swapping data between the RAM and disk as needed. This allows programs to run even if they require more memory than the system has available. However, virtual memory is slower than physical memory since accessing data on a hard disk is slower than accessing data in RAM.
+>
+>Cache is a type of memory used by a computer to speed up data access by storing frequently used data or instructions in a location that is faster to access than main memory. It is a smaller, faster memory that is closer to the processor than main memory. Cache is used to reduce the number of times the processor needs to access main memory, which can improve performance. There are different types of cache, including CPU cache, disk cache, and browser cache.
