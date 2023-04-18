@@ -106,3 +106,22 @@ directory may be stored on another partition – placing these files in the ```/
 the system will have these important utilities even if no other file systems are mounted. The
 ```/sbin``` directory is similar – it contains essential system administration binaries.
 
+##### How do you change a user passwd?
+>`passwd username`
+
+##### List any 5 Linux Distribution?
+> * Redhat 8/9
+> * SUSE
+> * Kali Linux
+> * Ubuntu
+> * Fedora
+
+##### How do you create a directory?
+>`mkdir directory_name`
+
+##### How to check Kernel Name?
+> `uname -a`
+> `hostnamectl`
+
+##### Where are configuration files locate?
+> In the `/etc` directory
