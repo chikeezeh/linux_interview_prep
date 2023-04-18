@@ -252,5 +252,13 @@ str
 
 
 ##### How to delete a file and a directory?
-> `rm` command can be used to delete a file, using the `-r` flag, you can delete a folder also. `rmdir` can be used to delete an empty folder.
+> `rm` command can be used to delete a file, using the `-r` option, you can delete a folder also. `rmdir` can be used to delete an empty folder.
 
+##### What is the difference between “tail” and “tail -10”?
+> By default the `tail` command shows the last 10 lines of a file, the `-10` option tells it to show the last 10 also, so there is no difference between the two commands.
+
+##### List 4 commands to display or read a file contents?
+> * cat
+> * more
+> * less
+> * vi
