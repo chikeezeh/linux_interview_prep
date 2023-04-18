@@ -80,3 +80,7 @@ The default gateway has its IP address, which is typically a private IP address 
 
 >This could be because the hostname doesn't have a hostname to ip entry on the 
 >``` /etc/hosts``` or DNS.
+
+##### Explain the difference between relative and absolute path?
+>Absolute path starts from the apex directory which is the ```/``` while a relative path is relative to the current directory.
+
