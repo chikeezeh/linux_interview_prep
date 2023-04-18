@@ -125,3 +125,27 @@ the system will have these important utilities even if no other file systems are
 
 ##### Where are configuration files locate?
 > In the `/etc` directory
+
+##### What is the purpose of having different network ports?
+So the communication of each application goes through a dedicated port.
+
+##### How do you print the 1st column of a file separated by spaces?
+>```console
+>    cat filename | awk '{print $1}'
+>```
+
+##### How to check your userid and group id?
+> While logged in use the `whoami` command to see your user id, then use `id -a userid` to get more information on the user including group id.
+> Using the `cat` command on the `/etc/passwd` will show all the users and groups.
+
+
+##### What is the difference between “kill” and “kill -9” command?
+>While kill allows the process to perform some cleanup operations before terminating, kill -9 forcefully terminates the process without giving it a chance to clean up. It is generally recommended to use kill first and only use kill -9 as a last resort, since it may result in data loss or other problems.
+
+##### You are troubleshooting an issue with Redhat support and they have asked you to send the contents of /etc directory. How and which method you will use to transfer the contents?
+> Use the `tar` command to create an archive of the `/etc` folder.
+> Use a compressing package like `gzip` to compress the archive, then transfer it to RedHat using FTP. The example below combines different folders into one archive.
+> ```console
+>┌──[19:57:45]─[0]─[root@almanode1:~]
+>└──| tar cf folders.tar a1 a2 a3 a4 b1 b2 b3 b4 c1 c2 c3 c4
+>```
