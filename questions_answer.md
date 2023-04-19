@@ -418,3 +418,30 @@ Reboot or boot if possible
 
 ##### What is the difference between a process and daemon?
 >The main difference between a process and a daemon is that a process is a general term for any running program, while a daemon is a specific type of process that runs in the background and performs a specific task.
+
+##### What are a few commands you would run if your system is running slow?
+> top, iostat, df –h, netstat etc.
+
+##### How to install a package in Redhat Linux?
+> dnf/yum install packagename
+
+##### How to disable firewall in Linux?
+> `systemctl stop firewalld` followed by `systemctl disable firewalld`
+
+##### What is mkfs command used for?
+> To create a new filesystem
+
+##### How to write a script to delete messages in a log file older than 30 days auto
+
+```console
+#!/bin/bash
+
+LOG_DIR="/var/log/myapp" # log directory
+LOG_FILE="myapp.log" # log file
+DAYS_OLD="30" # number of days 
+
+find $LOG_DIR -name $LOG_FILE -type f -mtime +$DAYS_OLD -exec rm {} \;
+# note +$DAYS_OLD will give us files older than 30 days, while
+-$DAYS_OLD will give us files created within the last 30 days.
+```
+
