@@ -392,3 +392,10 @@ If not running LVM then add more disk, create a new partition and link the new p
 
 ##### List any 4 commands to monitor system?
 > top, df –h, iostat, dmesg
+
+##### You are notified that your server is down, list the steps you will take to troubleshoot?
+>Check the system physically
+Login through system console
+Ping the system
+Reboot or boot if possible
+
