@@ -348,3 +348,9 @@ If not running LVM then add more disk, create a new partition and link the new p
 >
 >7. Login Shell: This field specifies the command or shell that is run when the user logs in. For example, the default login shell on many Unix and Linux systems is the Bash shell (/bin/bash).
 > Each field is separated by a `:`.
+
+##### What is the difference between “hostname” and “uname” commands?
+> Hostname will give you system name and uname will give you OS information.
+
+##### How to check system load?
+> `top` and `uptime` command.
