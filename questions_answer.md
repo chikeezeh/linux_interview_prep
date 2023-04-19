@@ -389,3 +389,6 @@ If not running LVM then add more disk, create a new partition and link the new p
 
 ##### What is the difference between telnet and ssh?
 > ssh is secure where telnet is not
+
+##### List any 4 commands to monitor system?
+> top, df –h, iostat, dmesg
