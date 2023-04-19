@@ -399,3 +399,11 @@ Login through system console
 Ping the system
 Reboot or boot if possible
 
+##### What is the difference between “crontab” and “at” jobs?
+>crontab is for repetitive jobs where at is for one time job
+
+##### What is the difference between SAN and NAS?
+>SAN (Storage Area Network) and NAS (Network Attached Storage) are both methods of providing centralized storage for multiple devices, but they differ in their architecture, purpose, and implementation.
+> * SAN provides block-level access to storage devices, while NAS provides file-level access over a network.
+> * SAN requires specialized hardware and software, while NAS is typically easier to set up and use.
+> * SAN is used in enterprise environments that require high-speed, low-latency access to large amounts of data, while NAS is used in small to medium-sized businesses or home environments.
