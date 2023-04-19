@@ -354,3 +354,26 @@ If not running LVM then add more disk, create a new partition and link the new p
 
 ##### How to check system load?
 > `top` and `uptime` command.
+
+##### How to schedule jobs?
+> `crontab` and `at`
+
+##### What are the different fields of a crontab?
+>1. Minute: This field specifies the minute of the hour when the task should be executed, and can be any value from 0 to 59.
+>
+>2. Hour: This field specifies the hour of the day when the task should be executed, and can be any value from 0 to 23.
+>
+>3. Day of the Month: This field specifies the day of the month when the task should be executed, and can be any value from 1 to 31.
+>
+>4. Month: This field specifies the month of the year when the task should be executed, and can be any value from 1 to 12, or the first three letters of the month name (e.g. "Jan" for January).
+>
+>5. Day of the Week: This field specifies the day of the week when the task should be executed, and can be any value from 0 to 7, where 0 and 7 both represent Sunday. Alternatively, the first three letters of the day name can be used (e.g. "Mon" for Monday).
+>
+>6. Command: This field specifies the command or script that should be executed at the specified time. The command can be any valid Unix command or script, and can include any necessary options or arguments.
+>
+>The example below will run a command at 11:59 PM on Monday and Thursday.
+>```console
+>59 23 * * 1,4 command
+>```
+>
+
