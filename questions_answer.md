@@ -302,4 +302,14 @@ check `/var/log/messages` to see if there is an entry for the cron job execution
 >mango orange kiwi grape berry
 >banana mango carrot spinach strawberry
 >```
+##### How to view the difference between two files?
+>`diff file1 file2`
+
+##### You noticed that one of the Linux servers has no disk space left, how would you troubleshoot that issue?
+> If running LVM then add more disk and extend LVM
+If not running LVM then add more disk, create a new partition and link the new partition to an existing filesystem.
+
+##### What is a zombie process?
+>A zombie process is a process whose execution is completed but it still has an entry in the process table.
+
 
