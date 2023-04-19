@@ -407,3 +407,14 @@ Reboot or boot if possible
 > * SAN provides block-level access to storage devices, while NAS provides file-level access over a network.
 > * SAN requires specialized hardware and software, while NAS is typically easier to set up and use.
 > * SAN is used in enterprise environments that require high-speed, low-latency access to large amounts of data, while NAS is used in small to medium-sized businesses or home environments.
+
+##### What is the location of system logs? E.g. messages
+> `/var/log`
+
+##### How to setup an alias and what is it used for?
+> Edit the `.bashrc` file, and add an alias using the syntax below.
+> `alias aliasname='command'`
+> Alias is used to create a shortcut to long commands.
+
+##### What is the difference between a process and daemon?
+>The main difference between a process and a daemon is that a process is a general term for any running program, while a daemon is a specific type of process that runs in the background and performs a specific task.
