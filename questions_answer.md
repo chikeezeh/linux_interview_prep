@@ -444,4 +444,12 @@ find $LOG_DIR -name $LOG_FILE -type f -mtime +$DAYS_OLD -exec rm {} \;
 # note +$DAYS_OLD will give us files older than 30 days, while
 -$DAYS_OLD will give us files created within the last 30 days.
 ```
+##### Which command is used to partition disk in Linux?
+>`fdisk`
 
+##### What is the difference between “shutdown” and “halt” command?
+>The shutdown command is used to shut down the system in a controlled and orderly way, while the halt command is used to shut down the system immediately without giving any chance to running processes to save their data. It's generally recommended to use the shutdown command instead of the halt command to avoid data loss and prevent potential hardware damage due to an abrupt shutdown.
+
+##### What is the exact syntax of mounting NFS share on a client and also how to un-mount?
+>`mount -t nfs server:/path/to/share /mount/point`
+>`umount /mount/point`
