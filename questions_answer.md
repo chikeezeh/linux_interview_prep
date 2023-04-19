@@ -312,4 +312,39 @@ If not running LVM then add more disk, create a new partition and link the new p
 ##### What is a zombie process?
 >A zombie process is a process whose execution is completed but it still has an entry in the process table.
 
+##### How do you search for a pattern/word in a file and then replace it in an entire file?
+>`sed` command
 
+##### Which command is used to view disk space?
+>`df -h`
+
+##### How to create a new group in Linux?
+>`groupadd`
+
+##### What is the command to send a message to everyone who is logged into the system?
+>`wall`
+
+##### List 4 different directories in /?
+> `/bin`
+> `/root`
+> `/etc`
+> `/proc`
+
+##### Which command is used to list the processes?
+>`ps -ef`
+
+##### What are the different fields in /etc/passwd file?
+>1. Username: This is the name of the user account, which is used to identify the user when logging in.
+>
+>2. Password: This field used to contain the hashed password for the user account, but on most modern systems it is replaced with a placeholder character, such as an "x". The actual password hash is typically stored in the /etc/shadow file.
+>
+>3. User ID (UID): This field contains a unique numeric identifier for the user account.
+>
+>4. Group ID (GID): This field contains the numeric identifier of the primary group for the user account.
+>
+>5. User Info: This field is used to store additional information about the user, such as their full name or contact information.
+>
+>6. Home Directory: This field contains the path to the user's home directory, where their files and settings are stored.
+>
+>7. Login Shell: This field specifies the command or shell that is run when the user logs in. For example, the default login shell on many Unix and Linux systems is the Bash shell (/bin/bash).
+> Each field is separated by a `:`.
