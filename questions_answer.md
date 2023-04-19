@@ -375,5 +375,17 @@ If not running LVM then add more disk, create a new partition and link the new p
 >```console
 >59 23 * * 1,4 command
 >```
->
+##### How to restart a service?
+> `systemctl restart servicename`
 
+##### How to delete a package in Linux?
+> `rpm –e packagename`
+
+##### What is the file name where user password information is saved?
+>`/etc/shadow`
+
+##### Which command you would use to find the location of chmod command?
+>`which chmod`
+
+##### What is the difference between telnet and ssh?
+> ssh is secure where telnet is not
