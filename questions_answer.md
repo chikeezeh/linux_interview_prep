@@ -473,3 +473,15 @@ find $LOG_DIR -name $LOG_FILE -type f -mtime +$DAYS_OLD -exec rm {} \;
 
 ##### What is the name of VMWare operating system?
 >ESXi
+
+##### What is the client name used to connect to ESXi or vCenter server?
+> vSphere client
+
+##### You get a call from a user saying that I cannot write to a file because it says, permission denied. The file is owned by that user, how do you troubleshoot?
+> Give write permission on the first 3 bits
+
+##### Which command syntax you can use to list only the 20th line of a file?
+>`tail -20 file | head -1`
+
+##### What is the difference between run level 3 and 5?
+> 3 = Boot system with networking, 5 = boot system with networking and GUI
