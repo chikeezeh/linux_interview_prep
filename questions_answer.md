@@ -485,3 +485,7 @@ find $LOG_DIR -name $LOG_FILE -type f -mtime +$DAYS_OLD -exec rm {} \;
 
 ##### What is the difference between run level 3 and 5?
 > 3 = Boot system with networking, 5 = boot system with networking and GUI
+
+##### You open up a file and it has 3000 lines and it scrolled up really fast, which command you will use to view it one page at a time?
+> `more` or `less`
+
