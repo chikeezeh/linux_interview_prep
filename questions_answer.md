@@ -453,3 +453,13 @@ find $LOG_DIR -name $LOG_FILE -type f -mtime +$DAYS_OLD -exec rm {} \;
 ##### What is the exact syntax of mounting NFS share on a client and also how to un-mount?
 >`mount -t nfs server:/path/to/share /mount/point`
 >`umount /mount/point`
+
+##### How to get information on all the packages installed on the system?
+> `rpm -qa` you can pipe this to grep and search if a certain package is installed.
+
+##### You are tasked to examine a log file in order to find out why a particular application keep crashing. Log file is very lengthy, which command can you use to simplify the log search using a search string?
+>grep for error, warning, failure etc. in /var/log/messages file
+>```console
+>┌──[18:19:08]─[0]─[root@almanode1:~]
+>└──| grep -E 'error|warning|failure' /var/log/messages
+>```
