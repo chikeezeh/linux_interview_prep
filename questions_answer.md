@@ -502,3 +502,19 @@ find $LOG_DIR -name $LOG_FILE -type f -mtime +$DAYS_OLD -exec rm {} \;
 ##### What are the tools you've used to find the root cause of the problem and troubleshoot like say if this was due to hardware failure, configuration of network gone wrong or compatibility issues? Where do you start to find out what went wrong with server down?
 > top, /var/log/messages, free, dmesg, iostat, ifconfig, tcpdump, netstat
 
+##### You need to modify httpd.conf file but you cannot find it, Which commandline tool you can use to find file?
+>`find / -name "httpd.conf"`
+
+##### What is Linux?
+>Linux is a Unix-like, open source and community-developed operating system (OS) for computers, servers, mainframes, mobile devices, and embedded devices.
+
+##### Why is Linux Operating system getting so popular?
+>Is open-source and supported on almost every major computer platform, including x86, ARM and SPARC, making it one of the most widely supported operating systems.
+
+##### What is Open-source Software? Give a few examples of open-source software which are industry standards
+>Free and available for anyone to to any changes, take it apart and put it together
+Git-hub , Apache HTML, WordPress, Nagios, python, Kubernetes, dockers.
+
+##### What is the difference between shell and Kernel?
+>Shell is how the user communicate to the hardware or computer (interaction between user and computer) the kernel is the core of the OS.
+
