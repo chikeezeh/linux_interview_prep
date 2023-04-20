@@ -489,3 +489,16 @@ find $LOG_DIR -name $LOG_FILE -type f -mtime +$DAYS_OLD -exec rm {} \;
 ##### You open up a file and it has 3000 lines and it scrolled up really fast, which command you will use to view it one page at a time?
 > `more` or `less`
 
+##### How to kill a process?
+> kill processID
+>
+
+##### How to check system memory and CPU usage?
+> `free` and `top`
+
+##### Your system crashed and being restarted, but a message appears, indicating that the operating system cannot be found. What is the most likely cause of the problem?
+> The /boot file is most likely corrupted
+
+##### What are the tools you've used to find the root cause of the problem and troubleshoot like say if this was due to hardware failure, configuration of network gone wrong or compatibility issues? Where do you start to find out what went wrong with server down?
+> top, /var/log/messages, free, dmesg, iostat, ifconfig, tcpdump, netstat
+
