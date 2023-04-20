@@ -463,3 +463,13 @@ find $LOG_DIR -name $LOG_FILE -type f -mtime +$DAYS_OLD -exec rm {} \;
 >┌──[18:19:08]─[0]─[root@almanode1:~]
 >└──| grep -E 'error|warning|failure' /var/log/messages
 >```
+
+##### What is /etc/fstab file and explain each column of this file?
+>The `/etc/fstab` file is a system configuration file used in Unix-like operating systems to define how block devices, such as hard drives or partitions, should be mounted and accessed. The file contains a list of entries, each describing a different file system, and how it should be mounted.
+>```bash
+>/dev/sda1(device)       /mnt/data(mountpoint)       ext4(filesystem)    defaults        0(backup)      2(file check sequence)
+>
+>```
+
+##### What is the name of VMWare operating system?
+>ESXi
