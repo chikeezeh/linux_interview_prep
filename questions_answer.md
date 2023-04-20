@@ -518,3 +518,5 @@ Git-hub , Apache HTML, WordPress, Nagios, python, Kubernetes, dockers.
 ##### What is the difference between shell and Kernel?
 >Shell is how the user communicate to the hardware or computer (interaction between user and computer) the kernel is the core of the OS.
 
+##### What is the difference between su & su -?
+>su: switch user but use the current user environment, su -: switch user and environment
