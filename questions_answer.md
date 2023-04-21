@@ -2,7 +2,7 @@
 > \# is the default prompt for root. However, this can be changed by editing the `.bashrc` file.
 ##### Explain the difference between grep and egrep?
 >`grep` Stands for global regular expression print, uses basic regular expression, so meta-characters such as `| () {} ?` need to be escaped with `\` when using them in a search pattern.
-`egrep` Stands for extended global regular expression print, it uses the >extended regular expression, so meta-characters don't need to be escaped. The
+`egrep` Stands for extended global regular expression print, it uses the extended regular expression, so meta-characters don't need to be escaped. The
 `grep` command can be extended to work like the `egrep` command by using the `-E` flag. See example below, where the pattern is to search for either apple or banana in the file fruits.
 ``` console
 ┌──[14:57:20]─[0]─[root@almanode1:~]
@@ -62,8 +62,10 @@ An IP address is a unique numerical identifier assigned to each device on a netw
 There are two types of IP addresses:
 >
 >Private IP addresses: These are reserved for use within local networks and are not routable on the internet. Private IP ranges for IPv4 are 10.0.0.0 - 10.255.255.255, 172.16.0.0 - 172.31.255.255, and 192.168.0.0 - 192.168.255.255.
-Public IP addresses: These are globally unique and routable on the internet. Public IP addresses are assigned by an Internet Service Provider (ISP) and enable devices to access the internet.
-Gateway:
+>
+>Public IP addresses: These are globally unique and routable on the internet. Public IP addresses are assigned by an Internet Service Provider (ISP) and enable devices to access the internet.
+>
+>Gateway:
 A gateway is a networking device that connects different networks and allows them to communicate with each other. In the context of home or office networks, the term "default gateway" usually refers to the router that connects your local network to the internet.
 The default gateway has its IP address, which is typically a private IP address within the local network's IP range. Devices on the local network use the default gateway to send and receive data packets to and from external networks, such as the internet.
 >
@@ -85,9 +87,10 @@ The default gateway has its IP address, which is typically a private IP address 
 >Absolute path starts from the apex directory which is the ```/``` while a relative path is relative to the current directory.
 
 ##### List 3 different methods of adding user?
->```useradd``` command
->```adduser``` command
->Using the GNOME GUI.
+> * ```useradd``` command
+> * ```adduser``` command
+> * Using the GNOME GUI.
+
 
 ##### What is the command to change file/directory ownership and group?
 ``` chown and chgrp``` commands.
